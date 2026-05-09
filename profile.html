@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>Bright Future School</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Student Profile</h1>
+
+      <img src="14752741995_352b7f67e1_b.jpg" class="profile-img" />
+
+      <h2 id="studentStatus">Status: Active</h2>
+
+      <div class="profile-box">
+        <p>Name: Sara</p>
+        <p>Age: 17</p>
+        <p>Grade: 11</p>
+      </div>
+
+      <div class="buttons">
+        <button id="showEmail">Show Email</button>
+        <button id="showPhone">Show Phone</button>
+        <button id="hideInfo">Hide Contact Info</button>
+      </div>
+
+      <div id="contactInfo"></div>
+
+      <div class="status-update">
+        <input type="text" id="newStatus" placeholder="New Status" />
+        <button id="updateStatus">Update Status</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
